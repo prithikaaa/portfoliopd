@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-control" content="public">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="google-site-verification" content="4B-bcR-YTOJh9DVErCFuXzyRTgaX0ve5qEhmZ40tSU0" />
+    <title>PrithikaD</title>
+
+    <meta name="description" content="Portoflio website of Avishrant Sharma. Check it out!">
+    <meta name="keywords"
+        content="Avishrant, AvishrantSh, Avishrants, Avishrant Portfolio, Avishrantssh, Avishrant Sharma, AvishrantSh Portfolio, Avishrant Sharma Portfolio">
+    <meta name="author" content="Avishrant Sharma">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Avishrant's Portfolio">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <!-- Service Worker Registration -->
+    <script type="text/javascript">
+        // Initialize the service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/serviceworker.js').then(function (registration) {
+                // Registration was successful
+                console.log('portfolio-progressive-web-app: ServiceWorker registration successful');
+            }, function (err) {
+                // registration failed :(
+                console.log('portfolio-progressive-web-app: ServiceWorker registration failed: ', err);
+            });
+        }
+
+    </script>
+
+    <!-- Favicons -->
+    <link href="assets/img/iconp.jpg" rel="icon">
+    <link href="assets/img/iconp.jpg" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Poppins&display=swap" rel="stylesheet">
+
+    <link href="stylesheet/extern/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="stylesheet/extern/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="stylesheet/extern/aos.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC6WQ9SXXE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GC6WQ9SXXE');
+    </script>
+    <!-- Template Main CSS File -->
+    <link href="stylesheet/preload.css" rel="stylesheet">
+    <link href="stylesheet/nav.css" rel="stylesheet">
+    <link href="stylesheet/scroll.css" rel="stylesheet">
+    <link href="stylesheet/style.css" rel="stylesheet">
+    <link href="stylesheet/footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div id="img-holder"></div>
+    <div id="central">
+        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+        <header id="header" class="d-flex flex-column justify-content-center">
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#skills"><i class="icofont-gears"></i><span>Skills</span></a></li>
+                    <li><a href="#achieve"><i class='bx bxs-trophy'></i><span>Achievements</span></a></li>
+                    <li><a href="#facts"><i class='bx bxs-report'></i><span>Stats</span></a></li>
+                    <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                    <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Section -->
+        <section id="hero" class="d-flex flex-column justify-content-center fader">
+            <div class="container" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Hi there!</h3>
+                <p>This is
+                <h1>Prithika Datta</h1>
+                </p>
+                <p>A <span class="typed"
+                        data-typed-items="Front-end Developer, ML Enthusiast, Aspiring Software Developer, Final Year Student"></span>
+                </p>
+                <div class="social-links">
+                    <a href="https://x.com/DattaPrithika25" target="_blank" rel="noreferrer" class="twitter"><i
+                            class="bx bxl-twitter"></i></a>
+                    <a href="https://github.com/prithikaaa" class="github" target="_blank" rel="noreferrer"><i
+                            class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prithika-datta-9122a8257/" class="linkedin" target="_blank"
+                        rel="noreferrer"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/prithikadatta1?igsh=ajk5Z3Zibno1eTZ4&utm_source=qr" class="instagram" target="_blank"
+                        rel="noreferrer"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <main id="main">
+            <!-- About -->
+            <section id="about" class="about pt-5">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title p-3">
+                        <h2>About</h2>
+                        <div class="row">
+                            <p class="intro">
+                                A Final Year Student at National Institute of Technology Hamirpur, pursuing B.Tech. in the field
+                                of Computer Science and Engineering.
+                                I'm a tech-savvy and ambitious person striving to make a difference.
+                            </p>
+                        </div>
+                        <div class="row mt-5 straight">
+                            <div class="col-lg-7 d-flex align-items-center gayab">
+                                <div class="container img-container">
+                                    <img src="assets/img/portfolio/myimg.png" alt="Name" class="name" height="650"
+                                        width="350">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 p-3 aboutme">
+                                <h5>Full Name : </h5> Prithika datta
+                                <h5>Date of Birth : </h5> 25 December, 2002
+                                <h5>Education : </h5> B.Tech. (Pursuing)
+                                <h5>Field of Study : </h5> Computer Science and Engineering
+                                <div class="link-holder my-4">
+                                    <a href="https://drive.google.com/drive/folders/1hoBoqKOdcvAYbwnXVnJ0yCCbxC70U3vA?usp=sharing"
+                                        target="_blank" rel="noreferrer">
+                                        <h5>View my Resume</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="skills section-bg">
+                <div class="container p-3" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Soft Skills</h2>
+                    </div>
+                    
+
+                    <div class="row skills-content mt-5">
+                        <div class="col-lg-6">
+                            <div class="progress">
+                                <span class="skill">Leadership <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Teamwork <i class="val">70%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Organizational <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow=75 aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="progress">
+                                <span class="skill">Communication <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Creativity <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Problem solving <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container p-3" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="section-title my-4">
+                        <p>I always had a knack for learning about new stuff. Over the past two years, I've ventured
+                            into various fields and subjects that fascinated me:
+                            From working extensively on ML to Web Development using Django to learning Data Structures and Algorithms.
+                            <br>
+                            Speaking of now, I'm exporing the awe-inspiring and beautiful world of 
+                            Software Development.
+                        </p>
+                    </div>
+
+                    <div class="row skills-content mt-5">
+                        <div class="col-lg-6">
+                            <div class="progress">
+                                <span class="skill">C/C++ <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Java <i class="val">70%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill">Python <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow=75 aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="progress">
+                                <span class="skill">Javascript <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">SQL <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Django <i class="val">60%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Achievements -->
+            <section id="achieve" class="about pt-5">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title p-3">
+                        <h2>Achievements</h2>
+                        <div class="row">
+                            <div class="col-12 p-3 roll">
+                                <h5>Top 19% with contest rating 1626 on Leetcode</h5>
+                                <h5>Selected for Microsoft Learn Student Ambassador'24 Cohort<br>2024</h5>
+                                <h5>Selected for GSSoC'24<br>2024</h5>
+                                <h5>Top 8 at Smart India Hackathon <br>2024</h5>
+                                <h5>Winner at International Hackathon Electrothon 5.0<br>2023</h5>
+                                <h5>State Champion of Youth Parliament Competition, <br>2018-19</h5>
+                                <h5>State Champion as Best Opposition Leader of the House</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Facts -->
+            <section id="facts" class="facts">
+                <div class="container p-3" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Statistics</h2>
+                        <p>
+                            Here are some of the stats related to my projects and work.
+                        </p>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-6 col-lg-3">
+                            <div class="count-box">
+                                <i class="bx bxl-github"></i>
+                                <span data-toggle="counter-up">25</span>
+                                <p>Git Repositories</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="count-box">
+                                <i class='bx bxs-checkbox-checked'></i>
+                                <span data-toggle="counter-up">10</span>
+                                <p>Projects</p>
+                                <p>(Total)</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="count-box">
+                                <i class='bx bx-toggle-right'></i>
+                                <span data-toggle="counter-up">2</span>
+                                <p>Active Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-lg-3">
+                            <div class="count-box">
+                                <i class="icofont-users-alt-5"></i>
+                                <span style="display: inline;" data-toggle="counter-up">800</span><span
+                                    style="display: inline;">&nbsp;+</span>
+                                <p>DSA Questions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio -->
+            <section id="portfolio" class="portfolio section-bg pb-3">
+                <div class="container p-3" data-aos="fade-up">
+
+                    <div class="section-title mb-2">
+                        <h2>Portfolio</h2>
+                        <p>
+                            Here's a summary of the various projects and events I've been a part of over the past one
+                            year.
+                            
+                        </p>
+                    </div>
+
+                    <div class="row mt -4">
+                        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-iot">Workshop & Events</li>
+                                <li data-filter=".filter-web">Web</li>
+                                <li data-filter=".filter-misc">ML.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <!-- Workshop -->
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-iot">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/ml study jam.png" class="img-fluid pimg" alt=""
+                                    height="658" width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>ML Workshop</h4>
+                                    <p>Python, Gemini AI</p>
+                                    <hr>
+                                    <p>A Workshop held for freshers introducing them to the amazing world of Machine Learning and AI.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- IoT -->
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-iot filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/web workshop.jpeg" class="img-fluid pimg" alt="" height="312"
+                                    width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>Web workshop</h4>
+                                    <p>HTML,CSS,JS,Django</p>
+                                    <hr>
+                                    <p>A Workshop held for freshers introducing them to the amazing world of Wb development.</p>
+                                    <div class="portfolio-links">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- E Com -->
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/hydroelectric.jpg" class="img-fluid pimg" alt="" height="360"
+                                    width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>AI Hydropower Plant Generator</h4>
+                                    <p> Python, Flask, Django, Machine Learning, JavaScript</p>
+                                    <hr>
+                                    <p>an AI-powered hydropower prediction system processing 50,000+ data points from government sources.
+                                    </p>
+                                    <div class="portfolio-links">
+                                        <a href="assets/img/portfolio/img2.jpeg" data-gall="portfolioGallery"
+                                            class="venobox" title="ecom"><i class="bx bxs-image"></i></a>
+                                        <a href="https://github.com/prithikaaa/AIHydroPwPlant" target="_blank"
+                                            rel="noreferrer"><i class="bx bxl-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Maze -->
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-misc">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/img4.jpeg" class="img-fluid pimg" alt="" height="378"
+                                    width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>AI-Legal Assistant</h4>
+                                    <p>Next.js, OpenAI API, MongoDB</p>
+                                    <hr>
+                                    <p>
+                                        A legal document analyzer reducing processing time by 60% using GPT-3.5 fine-tuning.
+                                    </p>
+                                    <div class="portfolio-links">
+                                        <a href="assets/img/portfolio/maze.jpeg" data-gall="portfolioGallery"
+                                            class="venobox" title="Maze"><i class="bx bxs-image"></i></a>
+                                        <a href="https://ai-legal-assistant.vercel.app/" target="_blank"
+                                            rel="noreferrer"><i class="bx bxl-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- VPen -->
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-misc">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/img_surface-pro.jpeg" class="img-fluid pimg" alt=""
+                                    height="300" width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>SpikeX- OSINT Framework</h4>
+                                    <p>Python, Flask, NGINX, Web Scraping</p>
+                                    
+                                    <hr>
+                                    <p>
+                                        An open-source intelligence tool with modular REST API handling 500+ requests/minute.
+                                    </p>
+                                    <div class="portfolio-links">
+                                        <a href="assets/img/portfolio/vpen.jpeg" data-gall="portfolioGallery"
+                                            class="venobox" title="Virtual Pen"><i class="bx bxs-image"></i></a>
+                                        <a href="https://github.com/prithikaaa/spikeX-OSINIT" target="_blank"
+                                            rel="noreferrer"><i class="bx bxl-github"></i></a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Shirt -->
+                         <!--
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-iot">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/shirt.jpg" class="img-fluid pimg" alt="" height="359"
+                                    width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>Smart Health T-Shirt</h4>
+                                    <p>IoT</p>
+                                    <p>Under Development</p>
+                                    <hr>
+                                    <p>
+                                        An IoT powered Smart T-Shirt to monitor and track the health status of
+                                        individuals.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <!-- Blender 
+                        <div class="col-lg-6 col-md-6 portfolio-item filter-misc">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/portfolio/Doughnut_last.jpeg" class="img-fluid pimg" alt=""
+                                    height="267" width="539" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>3D Donut</h4>
+                                    <p>Blender</p>
+                                    <hr>
+                                    <p>
+                                        Render Blender !!!
+                                    </p>
+                                    <div class="portfolio-links">
+                                        <a href="assets/img/portfolio/Teddy.jpeg" data-gall="portfolioGallery"
+                                            class="venobox" title="Teddy"><i class="bx bxs-image"></i></a>
+                                        <a href="https://github.com/AvishrantsSh/Blender_Models" target="_blank"
+                                            rel="noreferrer"><i class="bx bxl-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Me! -->
+            <section id="contact" class="contact py-5">
+                <div class="container p-3" data-aos="fade-up">
+
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                        <p>Have some suggestions for me? Or perhaps something else?</p>
+                        <p>Just reach out!</p>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <div class="info row">
+                            <div class="col-lg-4 my-2">
+                                <a href="mailto: avishrants@gmail.com" target="_blank" rel="noreferrer"><i
+                                        class="icofont-envelope"></i></a>
+                                <h4>Email:</h4>
+                                <p>prithikadatta1000@gmail.com</p>
+                            </div>
+                            <div class=" col-lg-4 my-2">
+                                <a href="https://www.google.com/maps/place/NIT+Hamirpur/@31.6750134,76.5271587,13z/data=!4m8!1m2!2m1!1sNIT+Hamirpur,+Himachal+Pradesh,+India!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.708371!4d76.527356"
+                                    target="_blank" rel="noreferrer"><i class="icofont-google-map"></i></a>
+                                <h4>Location:</h4>
+                                <p>NIT Hamirpur, Himachal Pradesh, India</p>
+                            </div>
+                            <div class="col-lg-4 my-2">
+                                <a href="https://www.linkedin.com/in/prithika-datta-9122a8257/" class="linkedin"
+                                    target="_blank" rel="noreferrer"><i class="bx bxl-linkedin"></i></a>
+                                <h4>Linkedin</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <p>Designed with <span>Bootstrap</span></p>
+                <div class="social-links">
+                    <a href="https://x.com/DattaPrithika25" target="_blank" rel="noreferrer" class="twitter"><i
+                            class="bx bxl-twitter"></i></a>
+                    <a href="https://github.com/prithikaaa" class="github" target="_blank" rel="noreferrer"><i
+                            class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prithika-datta-9122a8257/" class="linkedin" target="_blank"
+                        rel="noreferrer"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/prithikadatta1?igsh=ajk5Z3Zibno1eTZ4&utm_source=qr" class="instagram" target="_blank"
+                        rel="noreferrer"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End #main -->
+        <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/vendor/counterup/counterup.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script async src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="stylesheet/extern/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/typed.js/typed.min.js"></script>
+        <script src="stylesheet/extern/aos.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="js/main.js"></script>
+    </div>
+</body>
+
+</html>
